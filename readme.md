@@ -1,3 +1,5 @@
+catatan pribadi yang akan dibaca kembali nantinya
+
 list command Git dasar:
 - git config --list --show-origin (digunakan untuk melihat Seluruh Configuration)
 - git status (digunakan untuk melihat perubahan yang terjadi dalam git, baik itu penambahan untrack dll)
@@ -45,5 +47,6 @@ list command Git Remote:
 - git remote add namaRemote urlsshgit (digunakan untuk menambahkan remote repository git server)
 - git remote get-url namaRemote (digunakan untuk melihat url remote repository git server)
 - git remote rm namaRemote (digunakan untuk menghapus remote repository git server)
-- pit push namaRemote namaBranch (digunakan untuk mengsinkron/mengupload branch ke git server)
-- pit push namaRemote namaBranch:namaAlias (fungsinya sama seperti sebelumnya, tetapi namaAlias akan digunakan/rename ke repository git server)
+- git push namaRemote namaBranch (digunakan untuk mengsinkron/mengupload branch ke git server)
+- git push namaRemote namaBranch:namaAlias (fungsinya sama seperti sebelumnya, tetapi namaAlias akan digunakan/rename ke repository git server)
+- git push namaRemote --all (untuk push semua branch, nama branch akan mengikuti defaultnya)
