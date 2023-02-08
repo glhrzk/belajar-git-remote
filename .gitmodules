@@ -1,5 +1,5 @@
 [submodule "scripts"]
 	path = scripts
 	url = git@github.com:glhrzk/belajar-git-submodule.git
-[submodule "scripts/"]
+[submodule "scripts"]
 	branch = release
