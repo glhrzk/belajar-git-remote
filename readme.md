@@ -69,3 +69,5 @@ list command Git Remote:
 - pull request ( ketika kita membuat branch baru dari branch utama dan membuat fitur dari branch baru tersebut, ketika fitur tersebut ingin digabungkan dengan branch utama maka kita pull request, sama saja dengan merge, tetapi dilakukan di sisi server dan lebih mudah untuk me review )
 - git merge namaRemote namaBranch (untuk merge branch dari remote ke local)
 - git submodule add -urlrepo -namaFolder (digunakan untuk menambahkan modul berupa repository (nested repo))
+- git submodule update --remote namaFolder (update submodule tertentu)
+- git submodule update --remote (update semua submodule) 
