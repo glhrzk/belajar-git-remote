@@ -36,8 +36,10 @@ list command Git branch:
 (jika terjadi conflic pada saat merge maka kita harus mengeceknya secara satu persatu lalu me merge kan kembali)
 - git cherry-pick idhash (untuk merge hanya satu commit (bukan seluruh branch), dengan branch saat ini (this->branch))
 - git tag codetag idhash (untuk membuat referense terhadap snapshot/hasil comit)
+- git tag -d tagname (untuk menghapus tag)
 - git stash push -m 'message stash' (untuk menyimpan perubahan sementara working directory dan staging index)
 - git stash apply stashid (untuk menerapkan perubahan ke working directory)
+- git stash clear (untuk menghapus stash)
 - git rebase tujuanBranch (untuk melakukan rebase, sebenernya sama dengan merger tapi rebase dibuat 1 timeline, dan penggunaannya berbeda, kita harus berada di branch yang ingin di copy, rebase berarti hanya melakukan rebase di branchnya saja (this->branch), commit di master tetap tidak berubah, kita perlu melakukan merger kembali)
 - git merge --squash namaBranch (tidak beda jauh dengan merge hasil dari rebase, tetapi menjadikan semua commit dari branch yang merebase sebelumnya menjadi 1 commit alias di group, tetapi tidak secara otomatis di commit melaikan disimpan ke staging index terlebih dahulu)
 
@@ -59,3 +61,9 @@ list command Git Remote:
 - git diff branchLocal branchRemote (untuk melihat perbedaan dari hasil fetch diatas)
 - git pull namaRemote
 - git pull namaRemote namaBranch (untuk mengupdate local branch ke branch repository, sama saja seperti melakukan fetch + merge secara berurutan)
+- git push namaRemote namaTag (mengirim tag ke remote repository secara satu persatu)
+- git push namaRemote --tags (mengirim semua tag ke remote repository)
+- git fetch namaRemote namaTag (mengambil tag dari remote repository)
+- git fetch namaRemote (juga bisa digunakan untuk mengambil semua tag di repository)
+- git push --delete namaRemote namaTag (menghapus tag di repository)
+- pull request ( ketika kita membuat branch baru dari branch utama dan membuat fitur dari branch baru tersebut, ketika fitur tersebut ingin digabungkan dengan branch utama maka kita pull request, sama saja dengan merge, tetapi dilakukan di sisi server dan lebih mudah untuk me review )
