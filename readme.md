@@ -1,7 +1,7 @@
 catatan pribadi yang akan dibaca kembali nantinya
 yang di dapat dari hasil belajar di Youtube PZN
 
-list command Git dasar:
+<b>list command Git dasar:</b>
 - git config --list --show-origin (digunakan untuk melihat Seluruh Configuration)
 - git status (digunakan untuk melihat perubahan yang terjadi dalam git, baik itu penambahan untrack dll)
 - git add (digunakan untuk menambahkan file dari working directory ke stageddirectory)
@@ -71,3 +71,4 @@ list command Git Remote:
 - git submodule add -urlrepo -namaFolder (digunakan untuk menambahkan modul berupa repository (nested repo))
 - git submodule update --remote namaFolder (update submodule tertentu)
 - git submodule update --remote (update semua submodule) 
+- git submodule init (untuk mengaktifkan submodule pada clone project, karena defaultnya tidak aktif dan tidak mendownloadnya, maka lakukan submodule update untuk downloadnya)
