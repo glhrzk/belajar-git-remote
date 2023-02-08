@@ -1,4 +1,5 @@
 catatan pribadi yang akan dibaca kembali nantinya
+yang di dapat dari hasil belajar di Youtube PZN
 
 list command Git dasar:
 - git config --list --show-origin (digunakan untuk melihat Seluruh Configuration)
@@ -50,3 +51,6 @@ list command Git Remote:
 - git push namaRemote namaBranch (digunakan untuk mengsinkron/mengupload branch ke git server)
 - git push namaRemote namaBranch:namaAlias (fungsinya sama seperti sebelumnya, tetapi namaAlias akan digunakan/rename ke repository git server)
 - git push namaRemote --all (untuk push semua branch, nama branch akan mengikuti defaultnya)
+- git push --delete origin namaBranch (untuk menghapus branch di repository)
+- git clone urlsshgit namaFolder (digunakan untuk mengclone atau mendownload project yang ada di repository server ke local, default branch utama/master)
+- git branch -r (untuk melihat branch yang ada di remote repository git server)
