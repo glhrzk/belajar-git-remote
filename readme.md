@@ -67,3 +67,5 @@ list command Git Remote:
 - git fetch namaRemote (juga bisa digunakan untuk mengambil semua tag di repository)
 - git push --delete namaRemote namaTag (menghapus tag di repository)
 - pull request ( ketika kita membuat branch baru dari branch utama dan membuat fitur dari branch baru tersebut, ketika fitur tersebut ingin digabungkan dengan branch utama maka kita pull request, sama saja dengan merge, tetapi dilakukan di sisi server dan lebih mudah untuk me review )
+- git merge namaRemote namaBranch (untuk merge branch dari remote ke local)
+- git submodule add -urlrepo -namaFolder (digunakan untuk menambahkan modul berupa repository (nested repo))
