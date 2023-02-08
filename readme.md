@@ -1,5 +1,4 @@
-catatan pribadi yang akan dibaca kembali nantinya
-yang di dapat dari hasil belajar di Youtube PZN
+catatan pribadi yang akan dibaca kembali nantinya, yang di dapat dari hasil belajar di Youtube PZN
 
 <b>list command Git dasar:</b>
 - git config --list --show-origin (digunakan untuk melihat Seluruh Configuration)
@@ -24,7 +23,7 @@ yang di dapat dari hasil belajar di Youtube PZN
 - git blame namafile (digunakan untuk melihat siapa yang melakukan perubahan/update dan mengcomit file tersebut)
 - git config --global alias.ko "commit" (digunakan untuk membuat alias, jika perintah menggunakan space maka beri tanda petik 2)
 
-list command Git branch: 
+<b>list command Git branch:</b>
 - git branch --list (menampilkan seluruh branch)
 - git branch namaBranchBaru (membuat branch baru dari branch saat ini (this->branch))
 - git switch namaBranchBaru (pindah branch)
@@ -44,7 +43,7 @@ list command Git branch:
 - git merge --squash namaBranch (tidak beda jauh dengan merge hasil dari rebase, tetapi menjadikan semua commit dari branch yang merebase sebelumnya menjadi 1 commit alias di group, tetapi tidak secara otomatis di commit melaikan disimpan ke staging index terlebih dahulu)
 
 
-list command Git Remote:
+<b>list command Git Remote:</b>
 - ssh-keygen (digunakan untuk generate ssh)
 - ssh -T git@github.com (untuk test koneksi login ssh ke github kita)
 - git remote add namaRemote urlsshgit (digunakan untuk menambahkan remote repository git server)
@@ -72,3 +71,4 @@ list command Git Remote:
 - git submodule update --remote namaFolder (update submodule tertentu)
 - git submodule update --remote (update semua submodule) 
 - git submodule init (untuk mengaktifkan submodule pada clone project, karena defaultnya tidak aktif dan tidak mendownloadnya, maka lakukan submodule update untuk downloadnya)
+- git submodule set-branch --branch namaBranchModule namaFolder (ini dilakukan di project/repo git subdomain agar ketika mengclone nantinya otomatis pindah ke branch tujuan)
