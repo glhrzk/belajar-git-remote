@@ -51,6 +51,11 @@ list command Git Remote:
 - git push namaRemote namaBranch (digunakan untuk mengsinkron/mengupload branch ke git server)
 - git push namaRemote namaBranch:namaAlias (fungsinya sama seperti sebelumnya, tetapi namaAlias akan digunakan/rename ke repository git server)
 - git push namaRemote --all (untuk push semua branch, nama branch akan mengikuti defaultnya)
-- git push --delete origin namaBranch (untuk menghapus branch di repository)
+- git push --delete namaRemote namaBranch (untuk menghapus branch di repository)
 - git clone urlsshgit namaFolder (digunakan untuk mengclone atau mendownload project yang ada di repository server ke local, default branch utama/master)
 - git branch -r (untuk melihat branch yang ada di remote repository git server)
+- git fetch namaRemote 
+- git fetch namaRemote namaBranch (untuk mengupdate fetch remote keseluruhan atau by branch, perlu diingat bahwa yang di update adalah branch REMOTE yang ada di local hasil clone/dsb, bukan branch local,jadi tidak akan ada perubahan di branch local kita sebelum di merge,)
+- git diff branchLocal branchRemote (untuk melihat perbedaan dari hasil fetch diatas)
+- git pull namaRemote
+- git pull namaRemote namaBranch (untuk mengupdate local branch ke branch repository, sama saja seperti melakukan fetch + merge secara berurutan)
