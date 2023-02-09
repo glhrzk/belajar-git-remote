@@ -1,3 +1,5 @@
+Catatan pribadi yang akan dibaca kembali nantinya, yang di dapat dari hasil belajar di Youtube PZN
+
 <b> Command Git : </b>
 - git add (digunakan untuk menambahkan file dari working directory ke stageddirectory)
 - git blame namafile (digunakan untuk melihat siapa yang melakukan perubahan/update dan mengcomit file tersebut)
@@ -63,4 +65,3 @@
 - pull request ( ketika kita membuat branch baru dari branch utama dan membuat fitur dari branch baru tersebut, ketika fitur tersebut ingin digabungkan dengan branch utama maka kita pull request, sama saja dengan merge, tetapi dilakukan di sisi server dan lebih mudah untuk me review )
 - ssh -T git@github.com (untuk test koneksi login ssh ke github kita)
 - ssh-keygen (digunakan untuk generate ssh)
-catatan pribadi yang akan dibaca kembali nantinya, yang di dapat dari hasil belajar di Youtube PZN
